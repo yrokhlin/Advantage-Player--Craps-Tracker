@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF7A2521188C6E6A003B8EF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7A2520188C6E6A003B8EF9 /* Foundation.framework */; };
+		CF7A2523188C6E6A003B8EF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7A2522188C6E6A003B8EF9 /* CoreGraphics.framework */; };
+		CF7A2525188C6E6A003B8EF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7A2524188C6E6A003B8EF9 /* UIKit.framework */; };
+		CF7A252B188C6E6A003B8EF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF7A2529188C6E6A003B8EF9 /* InfoPlist.strings */; };
+		CF7A252D188C6E6A003B8EF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7A252C188C6E6A003B8EF9 /* main.m */; };
+		CF7A2531188C6E6A003B8EF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7A2530188C6E6A003B8EF9 /* AppDelegate.m */; };
+		CF7A2534188C6E6A003B8EF9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7A2532188C6E6A003B8EF9 /* Main_iPhone.storyboard */; };
+		CF7A2537188C6E6A003B8EF9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7A2535188C6E6A003B8EF9 /* Main_iPad.storyboard */; };
+		CF7A253A188C6E6A003B8EF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7A2539188C6E6A003B8EF9 /* ViewController.m */; };
+		CF7A253C188C6E6A003B8EF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7A253B188C6E6A003B8EF9 /* Images.xcassets */; };
+		CF7A2543188C6E6A003B8EF9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7A2542188C6E6A003B8EF9 /* XCTest.framework */; };
+		CF7A2544188C6E6A003B8EF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7A2520188C6E6A003B8EF9 /* Foundation.framework */; };
+		CF7A2545188C6E6A003B8EF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7A2524188C6E6A003B8EF9 /* UIKit.framework */; };
+		CF7A254D188C6E6A003B8EF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF7A254B188C6E6A003B8EF9 /* InfoPlist.strings */; };
+		CF7A254F188C6E6A003B8EF9 /* Advantage_Player__Craps_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7A254E188C6E6A003B8EF9 /* Advantage_Player__Craps_TrackerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF7A2546188C6E6A003B8EF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF7A2515188C6E6A003B8EF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7A251C188C6E6A003B8EF9;
+			remoteInfo = "Advantage Player: Craps Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF7A251D188C6E6A003B8EF9 /* Advantage Player: Craps Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advantage Player: Craps Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7A2520188C6E6A003B8EF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF7A2522188C6E6A003B8EF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF7A2524188C6E6A003B8EF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF7A2528188C6E6A003B8EF9 /* Advantage Player: Craps Tracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Advantage Player: Craps Tracker-Info.plist"; sourceTree = "<group>"; };
+		CF7A252A188C6E6A003B8EF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF7A252C188C6E6A003B8EF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF7A252E188C6E6A003B8EF9 /* Advantage Player: Craps Tracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Advantage Player: Craps Tracker-Prefix.pch"; sourceTree = "<group>"; };
+		CF7A252F188C6E6A003B8EF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF7A2530188C6E6A003B8EF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF7A2533188C6E6A003B8EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CF7A2536188C6E6A003B8EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CF7A2538188C6E6A003B8EF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF7A2539188C6E6A003B8EF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF7A253B188C6E6A003B8EF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF7A2541188C6E6A003B8EF9 /* Advantage Player: Craps TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advantage Player: Craps TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7A2542188C6E6A003B8EF9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CF7A254A188C6E6A003B8EF9 /* Advantage Player: Craps TrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Advantage Player: Craps TrackerTests-Info.plist"; sourceTree = "<group>"; };
+		CF7A254C188C6E6A003B8EF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF7A254E188C6E6A003B8EF9 /* Advantage_Player__Craps_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Advantage_Player__Craps_TrackerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF7A251A188C6E6A003B8EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7A2523188C6E6A003B8EF9 /* CoreGraphics.framework in Frameworks */,
+				CF7A2525188C6E6A003B8EF9 /* UIKit.framework in Frameworks */,
+				CF7A2521188C6E6A003B8EF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7A253E188C6E6A003B8EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7A2543188C6E6A003B8EF9 /* XCTest.framework in Frameworks */,
+				CF7A2545188C6E6A003B8EF9 /* UIKit.framework in Frameworks */,
+				CF7A2544188C6E6A003B8EF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF7A2514188C6E6A003B8EF9 = {
+			isa = PBXGroup;
+			children = (
+				CF7A2526188C6E6A003B8EF9 /* Advantage Player: Craps Tracker */,
+				CF7A2548188C6E6A003B8EF9 /* Advantage Player: Craps TrackerTests */,
+				CF7A251F188C6E6A003B8EF9 /* Frameworks */,
+				CF7A251E188C6E6A003B8EF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF7A251E188C6E6A003B8EF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF7A251D188C6E6A003B8EF9 /* Advantage Player: Craps Tracker.app */,
+				CF7A2541188C6E6A003B8EF9 /* Advantage Player: Craps TrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF7A251F188C6E6A003B8EF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF7A2520188C6E6A003B8EF9 /* Foundation.framework */,
+				CF7A2522188C6E6A003B8EF9 /* CoreGraphics.framework */,
+				CF7A2524188C6E6A003B8EF9 /* UIKit.framework */,
+				CF7A2542188C6E6A003B8EF9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF7A2526188C6E6A003B8EF9 /* Advantage Player: Craps Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				CF7A252F188C6E6A003B8EF9 /* AppDelegate.h */,
+				CF7A2530188C6E6A003B8EF9 /* AppDelegate.m */,
+				CF7A2532188C6E6A003B8EF9 /* Main_iPhone.storyboard */,
+				CF7A2535188C6E6A003B8EF9 /* Main_iPad.storyboard */,
+				CF7A2538188C6E6A003B8EF9 /* ViewController.h */,
+				CF7A2539188C6E6A003B8EF9 /* ViewController.m */,
+				CF7A253B188C6E6A003B8EF9 /* Images.xcassets */,
+				CF7A2527188C6E6A003B8EF9 /* Supporting Files */,
+			);
+			path = "Advantage Player: Craps Tracker";
+			sourceTree = "<group>";
+		};
+		CF7A2527188C6E6A003B8EF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF7A2528188C6E6A003B8EF9 /* Advantage Player: Craps Tracker-Info.plist */,
+				CF7A2529188C6E6A003B8EF9 /* InfoPlist.strings */,
+				CF7A252C188C6E6A003B8EF9 /* main.m */,
+				CF7A252E188C6E6A003B8EF9 /* Advantage Player: Craps Tracker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF7A2548188C6E6A003B8EF9 /* Advantage Player: Craps TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF7A254E188C6E6A003B8EF9 /* Advantage_Player__Craps_TrackerTests.m */,
+				CF7A2549188C6E6A003B8EF9 /* Supporting Files */,
+			);
+			path = "Advantage Player: Craps TrackerTests";
+			sourceTree = "<group>";
+		};
+		CF7A2549188C6E6A003B8EF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF7A254A188C6E6A003B8EF9 /* Advantage Player: Craps TrackerTests-Info.plist */,
+				CF7A254B188C6E6A003B8EF9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF7A251C188C6E6A003B8EF9 /* Advantage Player: Craps Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7A2552188C6E6A003B8EF9 /* Build configuration list for PBXNativeTarget "Advantage Player: Craps Tracker" */;
+			buildPhases = (
+				CF7A2519188C6E6A003B8EF9 /* Sources */,
+				CF7A251A188C6E6A003B8EF9 /* Frameworks */,
+				CF7A251B188C6E6A003B8EF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Advantage Player: Craps Tracker";
+			productName = "Advantage Player: Craps Tracker";
+			productReference = CF7A251D188C6E6A003B8EF9 /* Advantage Player: Craps Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF7A2540188C6E6A003B8EF9 /* Advantage Player: Craps TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7A2555188C6E6A003B8EF9 /* Build configuration list for PBXNativeTarget "Advantage Player: Craps TrackerTests" */;
+			buildPhases = (
+				CF7A253D188C6E6A003B8EF9 /* Sources */,
+				CF7A253E188C6E6A003B8EF9 /* Frameworks */,
+				CF7A253F188C6E6A003B8EF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF7A2547188C6E6A003B8EF9 /* PBXTargetDependency */,
+			);
+			name = "Advantage Player: Craps TrackerTests";
+			productName = "Advantage Player: Craps TrackerTests";
+			productReference = CF7A2541188C6E6A003B8EF9 /* Advantage Player: Craps TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF7A2515188C6E6A003B8EF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "IX-Labs";
+				TargetAttributes = {
+					CF7A2540188C6E6A003B8EF9 = {
+						TestTargetID = CF7A251C188C6E6A003B8EF9;
+					};
+				};
+			};
+			buildConfigurationList = CF7A2518188C6E6A003B8EF9 /* Build configuration list for PBXProject "Advantage Player: Craps Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF7A2514188C6E6A003B8EF9;
+			productRefGroup = CF7A251E188C6E6A003B8EF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF7A251C188C6E6A003B8EF9 /* Advantage Player: Craps Tracker */,
+				CF7A2540188C6E6A003B8EF9 /* Advantage Player: Craps TrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF7A251B188C6E6A003B8EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7A2537188C6E6A003B8EF9 /* Main_iPad.storyboard in Resources */,
+				CF7A253C188C6E6A003B8EF9 /* Images.xcassets in Resources */,
+				CF7A2534188C6E6A003B8EF9 /* Main_iPhone.storyboard in Resources */,
+				CF7A252B188C6E6A003B8EF9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7A253F188C6E6A003B8EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7A254D188C6E6A003B8EF9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF7A2519188C6E6A003B8EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7A253A188C6E6A003B8EF9 /* ViewController.m in Sources */,
+				CF7A2531188C6E6A003B8EF9 /* AppDelegate.m in Sources */,
+				CF7A252D188C6E6A003B8EF9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7A253D188C6E6A003B8EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7A254F188C6E6A003B8EF9 /* Advantage_Player__Craps_TrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF7A2547188C6E6A003B8EF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF7A251C188C6E6A003B8EF9 /* Advantage Player: Craps Tracker */;
+			targetProxy = CF7A2546188C6E6A003B8EF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF7A2529188C6E6A003B8EF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7A252A188C6E6A003B8EF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF7A2532188C6E6A003B8EF9 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7A2533188C6E6A003B8EF9 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CF7A2535188C6E6A003B8EF9 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7A2536188C6E6A003B8EF9 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CF7A254B188C6E6A003B8EF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7A254C188C6E6A003B8EF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF7A2550188C6E6A003B8EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF7A2551188C6E6A003B8EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7A2553188C6E6A003B8EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Advantage Player: Craps Tracker/Advantage Player: Craps Tracker-Prefix.pch";
+				INFOPLIST_FILE = "Advantage Player: Craps Tracker/Advantage Player: Craps Tracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF7A2554188C6E6A003B8EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Advantage Player: Craps Tracker/Advantage Player: Craps Tracker-Prefix.pch";
+				INFOPLIST_FILE = "Advantage Player: Craps Tracker/Advantage Player: Craps Tracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF7A2556188C6E6A003B8EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Advantage Player: Craps Tracker.app/Advantage Player: Craps Tracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Advantage Player: Craps Tracker/Advantage Player: Craps Tracker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Advantage Player: Craps TrackerTests/Advantage Player: Craps TrackerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CF7A2557188C6E6A003B8EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Advantage Player: Craps Tracker.app/Advantage Player: Craps Tracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Advantage Player: Craps Tracker/Advantage Player: Craps Tracker-Prefix.pch";
+				INFOPLIST_FILE = "Advantage Player: Craps TrackerTests/Advantage Player: Craps TrackerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF7A2518188C6E6A003B8EF9 /* Build configuration list for PBXProject "Advantage Player: Craps Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7A2550188C6E6A003B8EF9 /* Debug */,
+				CF7A2551188C6E6A003B8EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7A2552188C6E6A003B8EF9 /* Build configuration list for PBXNativeTarget "Advantage Player: Craps Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7A2553188C6E6A003B8EF9 /* Debug */,
+				CF7A2554188C6E6A003B8EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF7A2555188C6E6A003B8EF9 /* Build configuration list for PBXNativeTarget "Advantage Player: Craps TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7A2556188C6E6A003B8EF9 /* Debug */,
+				CF7A2557188C6E6A003B8EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF7A2515188C6E6A003B8EF9 /* Project object */;
+}
