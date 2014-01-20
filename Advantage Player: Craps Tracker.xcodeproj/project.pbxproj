@@ -22,6 +22,9 @@
 		CF7A2545188C6E6A003B8EF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7A2524188C6E6A003B8EF9 /* UIKit.framework */; };
 		CF7A254D188C6E6A003B8EF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF7A254B188C6E6A003B8EF9 /* InfoPlist.strings */; };
 		CF7A254F188C6E6A003B8EF9 /* Advantage_Player__Craps_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7A254E188C6E6A003B8EF9 /* Advantage_Player__Craps_TrackerTests.m */; };
+		CFDDDAA6188CB178007F9028 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDDDAA5188CB178007F9028 /* MapViewController.m */; };
+		CFDDDAA9188CB20C007F9028 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDDDAA8188CB20C007F9028 /* Location.m */; };
+		CFDDDAAC188CB222007F9028 /* LocationDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDDDAAB188CB222007F9028 /* LocationDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,12 @@
 		CF7A254A188C6E6A003B8EF9 /* Advantage Player: Craps TrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Advantage Player: Craps TrackerTests-Info.plist"; sourceTree = "<group>"; };
 		CF7A254C188C6E6A003B8EF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF7A254E188C6E6A003B8EF9 /* Advantage_Player__Craps_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Advantage_Player__Craps_TrackerTests.m; sourceTree = "<group>"; };
+		CFDDDAA4188CB178007F9028 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		CFDDDAA5188CB178007F9028 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		CFDDDAA7188CB20C007F9028 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		CFDDDAA8188CB20C007F9028 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		CFDDDAAA188CB222007F9028 /* LocationDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDataController.h; sourceTree = "<group>"; };
+		CFDDDAAB188CB222007F9028 /* LocationDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +131,12 @@
 				CF7A2539188C6E6A003B8EF9 /* ViewController.m */,
 				CF7A253B188C6E6A003B8EF9 /* Images.xcassets */,
 				CF7A2527188C6E6A003B8EF9 /* Supporting Files */,
+				CFDDDAA4188CB178007F9028 /* MapViewController.h */,
+				CFDDDAA5188CB178007F9028 /* MapViewController.m */,
+				CFDDDAA7188CB20C007F9028 /* Location.h */,
+				CFDDDAA8188CB20C007F9028 /* Location.m */,
+				CFDDDAAA188CB222007F9028 /* LocationDataController.h */,
+				CFDDDAAB188CB222007F9028 /* LocationDataController.m */,
 			);
 			path = "Advantage Player: Craps Tracker";
 			sourceTree = "<group>";
@@ -254,8 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF7A253A188C6E6A003B8EF9 /* ViewController.m in Sources */,
+				CFDDDAA9188CB20C007F9028 /* Location.m in Sources */,
+				CFDDDAAC188CB222007F9028 /* LocationDataController.m in Sources */,
 				CF7A2531188C6E6A003B8EF9 /* AppDelegate.m in Sources */,
 				CF7A252D188C6E6A003B8EF9 /* main.m in Sources */,
+				CFDDDAA6188CB178007F9028 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +492,7 @@
 				CF7A2554188C6E6A003B8EF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF7A2555188C6E6A003B8EF9 /* Build configuration list for PBXNativeTarget "Advantage Player: Craps TrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +501,7 @@
 				CF7A2557188C6E6A003B8EF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
